@@ -34,7 +34,7 @@ $mail->Password = "Himalayancattery45";
     //and will cause your messages to fail SPF checks
     $mail->setFrom('mail@ninahimalayancattery.com', $_POST['name']);
     //Send the message to yourself, or whoever should receive contact for submissions
-    $mail->addAddress('ninahimalayancattery@gmail.com', 'Contact Nina Himalayan Cattery');
+    $mail->addAddress('cornellekacy4@gmail.com', 'Contact Nina Himalayan Cattery');
     //Put the submitter's address in a reply-to header
     //This will fail if the address provided is invalid,
     //in which case we should ignore the whole request
@@ -48,6 +48,7 @@ Name: {$_POST['name']}
 Email: {$_POST['email']}
 Phone Number: {$_POST['phone']}
 City/State: {$_POST['city']}
+Puppy's Name: {$_POST['puppy']}
 Message: {$_POST['message']}
 EOT;
         //Send the message, check for errors

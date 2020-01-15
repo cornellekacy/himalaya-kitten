@@ -184,10 +184,27 @@ textarea {
                     <div class="form-box">
                         <form method="post" action="send.php">
                             <div class="row clearfix">
-                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-group col-md-6 col-sm-6 col-xs-6">
                                     <label><b>Name</b></label>
+                                    <input style="border: 3px solid #555;" class="text" type="text" name="name" value="" placeholder="Your Full Name" required>
+                                </div>
+ 
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    <label><b>Email Address</b></label>
+                                    <input style="border: 3px solid #555;" type="email" name="email" value="" placeholder="Email" required>
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    <label><b>Phone Number</b></label>
+                                    <input style="border: 3px solid #555;" type="text" name="phone" value="" placeholder="Phone #" required>
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    <label><b>City/State</b></label>
+                                    <input style="border: 3px solid #555;" class="text" type="text" name="city" value="" placeholder="City/State" required>
+                                </div>
+                                     <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <label><b>Kitten's Name</b></label>
                                     
-                                     <select style="border: 3px solid #555;" name="name" class="form-control" id="sel1">
+                                     <select style="border: 3px solid #555;" name="puppy" class="form-control" id="sel1">
                                         <option style="font-size: 18px" value="Tigger-Male">Tigger-Male</option>
                                         <option style="font-size: 18px" value="Zoey-Female">Zoey-Female</option>
                                         <option style="font-size: 18px" value="Max-Male">Max-Male</option>
@@ -204,19 +221,7 @@ textarea {
                                         <option style="font-size: 18px" value="Shadow-Female">Shadow-Female</option>
                                       </select>
                                 </div>
- 
-                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                    <label><b>Email Address</b></label>
-                                    <input style="border: 3px solid #555;" type="email" name="email" value="" placeholder="Email" required>
-                                </div>
-                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                    <label><b>Phone Number</b></label>
-                                    <input style="border: 3px solid #555;" type="text" name="phone" value="" placeholder="Phone #" required>
-                                </div>
-                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                    <label><b>City/State</b></label>
-                                    <input style="border: 3px solid #555;" class="text" type="text" name="city" value="" placeholder="City/State" required>
-                                </div>
+                                
                              
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                     <label><b>Message</b></label>
