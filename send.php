@@ -21,18 +21,18 @@ if (array_key_exists('email', $_POST)) {
     $mail->isSMTP();
      //$mail->SMTPDebug = SMTP::DEBUG_SERVER; 
 $mail->SMTPSecure = 'tls';
-$mail->Host = 'smtp.yandex.com';
+$mail->Host = 'smtp.gmail.com';
 $mail->Port = 587;
 //Whether to use SMTP authentication
 $mail->SMTPAuth = true;
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "mail@ninahimalayancattery.com";
+$mail->Username = "cornellekacy4@gmail.com";
 //Password to use for SMTP authentication
-$mail->Password = "Himalayancattery45";
+$mail->Password = "cornellekacy456";
     //Use a fixed address in your own domain as the from address
     //**DO NOT** use the submitter's address here as it will be forgery
     //and will cause your messages to fail SPF checks
-    $mail->setFrom('mail@ninahimalayancattery.com', $_POST['name']);
+    $mail->setFrom('ninahimalayancattery@gmail.com', $_POST['name']);
     //Send the message to yourself, or whoever should receive contact for submissions
     $mail->addAddress('ninahimalayancattery@gmail.com', 'Contact Nina Himalayan Cattery');
     //Put the submitter's address in a reply-to header
